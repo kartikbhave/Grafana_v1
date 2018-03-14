@@ -33,7 +33,7 @@ services:
       - /cgroup:/cgroup:ro
     restart: unless-stopped
     ports:
-      - 8185:8185
+      - 8084:8084
     network_mode: host
     labels:
       org.label-schema.group: "monitoring"
